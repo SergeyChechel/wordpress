@@ -22,7 +22,7 @@ add_theme_support('menus');
 
 function my_acf_google_map_api( $api ){
 	
-	$api['key'] = 'AIzaSyBlZbPBZkVMc71sFeSnSf7TcS_Z9Cdge1o'; // Ваш ключ Google API
+	$api['key'] = ''; // Ваш ключ Google API
 	
 	return $api;
 	
