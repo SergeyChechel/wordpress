@@ -153,7 +153,7 @@
         wp_footer();
     ?>
 
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlZbPBZkVMc71sFeSnSf7TcS_Z9Cdge1o"></script> // Ваш ключ Google API 
+      <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script> // Ваш ключ Google API 
       <script type="text/javascript">
       (function($) {
 

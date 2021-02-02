@@ -14,7 +14,7 @@ function childhood_scripts() {
 };
 
 add_action("wp_enqueue_scripts", "childhood_styles");
-add_action("wp_enqueue_scripts", "childhood_scripts");
+add_action("wp_enqueue_scripts", "childhood_scripts"); 
 
 add_theme_support('custom-logo');
 add_theme_support('post-thumbnails');
@@ -22,7 +22,7 @@ add_theme_support('menus');
 
 function my_acf_google_map_api( $api ){
 	
-	$api['key'] = ''; // Ваш ключ Google API
+	$api['key'] = 'xxx'; // Ваш ключ Google API
 	
 	return $api;
 	
